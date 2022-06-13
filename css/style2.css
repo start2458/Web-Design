@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+p{
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 90px;
+  font-style: italic;
+  /* font-variant: small-caps; */
+
+  color: red;
+  color: #ccc;
+  color: rgb(0, 0, 150);
+  color: rgba(0, 0, 150, 0.5);
+
+  text-decoration: underline;
+  text-transform: lowercase;
+  text-transform: uppercase;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  word-spacing: 20px;
+  text-shadow: 5px 5px 5px yellow;
+}
+ul.football{
+  list-style: none;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+ul.football li{
+  float: left;
+  width: 20%;
+  text-align: center;
+  box-sizing: border-box;
+  border-right: 1px solid #000;
+}
+ul.football li:last-child{
+  border: none;
+}
+
+ul.football li a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul.football li a:hover{
+  color: aqua;
+  text-decoration: underline;
+}
+.fa{
+  color: blue;
+}

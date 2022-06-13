@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Ex10</title>
+</head>
+<body>
+  <form action="">
+    <h1>여름방학 특강 신청하기</h1>
+    <fieldset>
+      <legend>교육과정</legend>
+      <label for="">영어회화</label> : <input type="text" value="오전 9:00~11:00" readonly/> (초급레벨)
+    </fieldset>
+    <fieldset>
+      <legend>신청자 기본정보</legend>
+      <label for="">이름</label> 
+      <input type="text" placeholder="성명을 적으세요." required/><br>
+      <label for="">이메일</label> 
+      <input type="email"/><br>
+      <label for="">비밀번호</label> 
+      <input type="password"/><br>
+      학과 &nbsp;
+      <select name="" id="">
+        <option value="none">학과를 선택하세요.</option>
+        <option value="beauty">뷰티과</option>
+        <option value="smartWebContent">스마트웹콘텐츠과</option>
+        <option value="softwareDevelopment">소프트웨어개발과</option>
+      </select>
+      <br>
+      성별 &nbsp;
+      <input type="radio" name="gender"/> 남자
+      <input type="radio" name="gender"/> 여자
+      <br>
+      관심사 &nbsp;
+      <input type="checkbox"/>여행
+      <input type="checkbox"/>게임
+      <input type="checkbox"/>공연
+      <input type="checkbox"/>운동
+      <input type="checkbox"/>기타
+    </fieldset>
+    <input type="submit" value="수강신청"/>
+    <input type="reset" value="다시쓰기"/>
+  </form>
+</body>
+</html>

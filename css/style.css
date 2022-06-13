@@ -1,0 +1,57 @@
+ /* p{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+}
+
+.center{
+  text-align: right;
+  color: blue;
+}
+
+#center{
+  text-align: left;
+  color: green;
+}
+
+div.center{
+  text-align: center;
+  color: yellow;
+} */
+
+/* 전체선택자 */
+*{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+/* 자손선택자, 하위선택자 */
+div span{
+  color: red;
+}
+
+/* 자식선택자 */
+p > span#id1{
+  font-weight: bold;
+  font-size: 25px;
+}
+div > span{
+  color : blue;
+}
+/* 그룹선택자 */
+h1, p>span{
+  color: green;
+}
+
+/* 
+선택자 우선순위
+1. !importatnt style
+2. inline style
+3. ID selector style
+4. CLASS selector style
+5. Tag Select style
+
+font-size
+px, em, %, pt
+기본값 1em = 16px = 100% = 12pt
+ */
