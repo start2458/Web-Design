@@ -43,18 +43,7 @@
   position: relative;
 }
 
-#banner .slideList {
-  width: 1200px;
-  height: 300px;
-  position: relative;
-}
-
-#banner .slideList .slideImg {
-  position: relative;
-}
-
-
-#banner .slideList .slideImg h2{
+#banner h2{
   position: absolute; /* 글씨 정중앙 오게 하는법 */
   left : 50%;
   top: 50%;
@@ -62,12 +51,23 @@
   border-color: rgb(255,255,255,0.5);
   padding: 10px 30px;
   border-radius: 25px;
+  z-index: 100;
+}
+
+#banner .slideList {
+  width: 1200px;
+  height: 300px;
+  position: relative;
+}
+
+#banner .slideList .slideImg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 #banner .slideList .slideImg img {
   display: block;
-  width: 1200px;
-  height: 300px;
 }
 
 #contents > div {

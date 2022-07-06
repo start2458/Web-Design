@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222328;
+}
+.cf::before .cf::after{
+  display: block;
+  content: '';
+  clear: both;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+#wrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+#header{
+  width: 1200px;
+}
+#header .hlogo{
+  float: left;
+  width: 200px;
+  height: 100px;
+}
+#header .nav {
+  float: right;
+  width: 601px;
+  margin: 20px;
+}
+#header .nav ul li{
+  float: left;
+  text-align: center;
+  position: relative;
+  width: 150px;
+}
+#header .nav ul li a{
+  display: block;
+  font-size: 20px;
+  padding: 10px 0; 
+  transition: 0.5s;
+}
+#header .nav ul li:hover>a{
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+}
+#header .nav>ul>li>a{
+  border: 1px solid #000;
+}
+#header .nav ul li:first-child>ul.submenu{
+  border-left: 1px solid #000;
+}
+#header .nav ul li:last-child>ul.submenu{
+  border-right: 1px solid #000;
+}
+#header .nav ul li:last-child{
+  width: 151px;
+}
+#header .nav ul li ul.submenu {
+  display: none;
+  position: absolute;
+  left: 0;
+  z-index: 50;
+  border-bottom: 1px solid #000;
+}
+#header .nav ul li ul.submenu li{
+  width: 150px;
+}
+#slide{
+  width: 1200px;
+  height: 300px;
+  overflow: hidden;
+}
+#slide .slideList{
+  position: relative;
+}
+#slide .slideList .slideImg img{
+  padding: 0;
+  display: block;
+}
+#contents {
+  width: 100%;
+  height: 200px;
+}
+#contents>div {
+  float: left;
+  width: 400px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.tabmenu {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 14px;
+}
+.tabmenu .tab_btn li {
+  float: left;
+  width: 80px;
+  text-align: center;
+}
+.tabmenu .tab_btn li a {
+  display: block;
+  padding: 5px;
+  background: #ddd;
+  border: 1px solid #000;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: -1px;
+}
+.tabmenu .tab_btn li.active a {
+  background: #fff;
+}
+.tabmenu .tab_cont{
+  margin-top: 28px;
+}
+.tabmenu .tab_cont a{
+  font-size: 12px;
+}
+.tab_cont div {
+  border: 1px solid #000;
+  height: 150px;
+}
+.tab_cont .tab1 {
+  padding: 0 15px;
+}
+.tab_cont .tab1 a {
+  display: block;
+  padding: 5px;
+  border-bottom: 1px solid #000;
+}
+.tab_cont .tab1 a:last-child {
+  border-bottom: none;
+}
+.tab_cont .tab1 a span {
+  float: right;
+}
+.tab_cont .tab1 a span.txt{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.tab_cont .tab2{
+  text-align: center;
+  padding-top: 20px;
+}
+.tab_cont .tab2 img{
+  width: 120px;
+}
+#contents .banner, .shortcut{
+  padding: 10px;
+}
+.banner img, .shortcut img{
+  width: 100%;
+  height: 100%;
+}
+#footer{
+  width: 100%;
+  height: 100px;
+}
+#footer div{
+  float: left;
+}
+#footer .flogo{
+  width: 200px;
+  height: 100px;
+}
+#footer .copy{
+  text-align: center;
+  width: 800px;
+  padding-top: 15px;
+}
+#footer .sns{
+  width: 200px;
+  line-height: 100px;
+  text-align: right;
+  padding-right: 5px;
+  box-sizing: border-box;
+}

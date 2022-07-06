@@ -40,7 +40,6 @@
   height: 300px;
   text-align: center;
   overflow: hidden;
-  position: relative;
 }
 
 #banner .slideList {
@@ -66,8 +65,6 @@
 
 #banner .slideList .slideImg img {
   display: block;
-  width: 1200px;
-  height: 300px;
 }
 
 #contents > div {

@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Web Design</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="script/jquery-1.8.1.min.js"></script>
+  <script src="script/script.js"></script>
 </head>
 <body>
   <div id="wrap">
@@ -11,14 +13,27 @@
       <div class="logo">로고</div>
       <div class="nav">메뉴</div>
     </header>
-    <section id="banner">
-      <p>이미지 슬라이드</p>
+    <section id="banner" class="cf">
+      <div class="slideList">
+        <div class="slideImg">
+          <h2>페이드 효과 이미지1</h2>
+          <img src="images/ban01.jpg" alt="img1">
+        </div>
+        <div class="slideImg">
+          <h2>페이드 효과 이미지2</h2>
+          <img src="images/ban02.jpg" alt="img2">
+        </div>
+        <div class="slideImg">
+          <h2>페이드 효과 이미지3</h2>
+          <img src="images/ban03.jpg" alt="img3">
+        </div>
+      </div>
     </section>
-    <section id="contents">
+    <section id="contents" class="cf">
       <div class="cont1">
         <p>공지사항</p>
       </div>
-      <div class="cont2">
+      <div class="cont2"">
         <p>갤러리</p>
       </div>
       <div class="cont3">

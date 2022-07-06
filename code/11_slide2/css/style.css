@@ -40,17 +40,17 @@
   height: 300px;
   text-align: center;
   overflow: hidden;
-  position: relative;
 }
 
 #banner .slideList {
-  width: 1200px;
+  width: 3600px;
   height: 300px;
   position: relative;
 }
 
 #banner .slideList .slideImg {
   position: relative;
+  float: left;
 }
 
 
